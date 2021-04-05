@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9">
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/in"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.이름"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/edit"
+            />
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="입력하세요"
+            android:ems="10"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.내 친구를 생각하면 떠오르는 이미지 버튼은?"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/edit"
+            />
+        <ImageButton
+            android:id="@+id/img"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/txt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/myfriends"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.내 친구는 이럴때 좋더라"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/img"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="긍정적인 말"
+            android:layout_below="@id/txt3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎈내 친구를 소개합니다🎈"
+        android:background="#A85959"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="빠끄~"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFC107"
+        />
+
+</RelativeLayout>

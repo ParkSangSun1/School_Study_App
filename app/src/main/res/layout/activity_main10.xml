@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity6">
+
+        <EditText
+            android:id="@+id/first_Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="첫번째 숫자"
+            />
+
+        <EditText
+            android:id="@+id/secend_Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:hint="두번째 숫자" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="200dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:text="더하기" />
+
+            <Button
+                android:id="@+id/Qorl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:text="빼기" />
+
+            <Button
+                android:id="@+id/rhqgkrl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:text="곱하기" />
+
+            <Button
+                android:id="@+id/sksnrl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:text="나누기" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/score"
+            android:text="결과"
+            android:textSize="40dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CD6B6B" />
+    </LinearLayout>

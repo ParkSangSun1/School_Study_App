@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="내가 좋아하는 노래"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#DA6F6F"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="네 생각"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="존 박"
+            android:textSize="20dp"
+            android:gravity="right"
+            android:paddingRight="50dp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:text="아침에 눈을 뜨면 네 생각이나\n
+창밖을 바라보다 네 생각이나\n
+그렇게 멍하니 또 하루가 흘러가\n
+너도 날 가끔씩은 떠 올릴까 네 생각이나\n
+어느새 내 주변의 모든 건\n
+익숙한 향기로 너에게 물들어\n
+화초에 꽃이 피어 네 생각이나\n
+예쁜 걸 볼 때마다 네 생각이나\n
+내 취향은 아니지만 네가 좋아하는\n
+그 노랫말 하루 종일 흥얼거려 네 생각이나\n
+사랑이 내게도 찾아왔나 봐\n
+어느새 내 주변의 모든 건\n
+처음 보는 색으로 내 맘처럼 피어나\n
+푸르던 하늘에 무지갯빛이 나\n
+갈라진 골목길도 모네의 그림 같아\n
+이렇게 변한 나를 내가 봐도 참 우습기만 하지만\n
+어쩔 수 없나 봐 하루 종일 바보처럼 네 생각이나\n
+그렇게 멍하니 또 하루가 흘러가\n
+아침에 눈을 뜨면 네 생각이나\n
+양치를 하다가도 네 생각이나\n
+그렇게 멍하니 또 하루가 흘러가\n
+너도 날 가끔 떠올릴까 네 생각이나\n
+화초에 꽃이 피어 네 생각이나\n
+커피를 마시다가 네 생각이나\n
+이렇게 변한 나를 내가 봐도 참 우습기만 하지만\n
+어쩔 수 없나 봐 온종일 바보처럼 네 생각이나\n
+네 생각이나\n
+오 네 생각이나"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
