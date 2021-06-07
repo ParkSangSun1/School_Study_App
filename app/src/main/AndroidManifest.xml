@@ -9,17 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.School_Study_App">
-        <activity android:name=".MainActivity16">
+        <activity android:name=".MainActivity20">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity15">
+        <activity android:name=".PaintingActivity">
 
         </activity>
-        <activity android:name=".MainActivity14"></activity>
+        <activity android:name=".MainActivity19"></activity>
+        <activity android:name=".CoordinateValues" />
+        <activity android:name=".ToggleButtonex" />
+        <activity android:name=".MainActivity18" />
+        <activity android:name=".MainActivity17" />
+        <activity android:name=".MainActivity16" />
+        <activity android:name=".MainActivity15" />
+        <activity android:name=".MainActivity14" />
         <activity android:name=".MainActivity13" />
         <activity android:name=".MainActivity12" />
         <activity android:name=".MainActivity11" />
